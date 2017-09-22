@@ -1,7 +1,7 @@
 #include "random.h"
 
-/* Gets a random number by accessing a unset pointer
- * and dividing it to make the number smaller.
+/* Gets a random number by accessing the address of an
+ * unset pointer and dividing it to make the number smaller.
  * Currently the Generator is non-seedable but maybe 
  * in the future it will. And also you can't really 
  * control so if you want a number between 1 and 100
