@@ -1,2 +1,2 @@
 # VerySimplePRNG
-My own concept of a simple Pseudo-Random Number Generator
+This is my first try on a Pseudo-Random Number Generator. Still WIP though.
