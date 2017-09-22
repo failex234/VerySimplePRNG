@@ -4,8 +4,8 @@
  * unset pointer and dividing it to make the number smaller.
  * Currently the Generator is non-seedable but maybe 
  * in the future it will. And also you can't really 
- * control so if you want a number between 1 and 100
- * you're out of luck with this one!
+ * control it so if you want a number between 1 and 100
+ * you're out of luck with this one, at least for now.
  */
 int* randomint() {
 	//Save address in a cache
