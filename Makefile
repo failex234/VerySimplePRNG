@@ -1,5 +1,7 @@
+CC=gcc
+CC_FLAGS=-Wall
 all:
-	gcc random.c -c
-	gcc random.o main.c -o randomgen
+	$(CC) $(CC_FLAGS) random.c -c
+	$(CC) $(CC_FLAGS) random.o main.c -o randomgen
 clean:
 	rm random.o randomgen
